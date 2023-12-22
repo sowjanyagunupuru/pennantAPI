@@ -1,0 +1,143 @@
+[11:32:56.231] 2023-11-30T11:32:56,231 INFO   [main] PennantApIApplication M[logStarting]- Starting PennantApIApplication using Java 17.0.6 with PID 8960 (D:\Angular\PennantApI\target\classes started by sowjanya.g in D:\Angular\PennantApI)
+[11:32:56.253] 2023-11-30T11:32:56,253 INFO   [main] PennantApIApplication M[logStartupProfileInfo]- No active profile set, falling back to 1 default profile: "default"
+[11:32:57.573] 2023-11-30T11:32:57,573 WARN   [main] AnnotationConfigServletWebServerApplicationContext M[refresh]- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'jdbcTemplate' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/JdbcTemplateConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=true; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.JdbcTemplateConfiguration; factoryMethodName=jdbcTemplate; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springframework/boot/autoconfigure/jdbc/JdbcTemplateConfiguration.class]] for bean 'jdbcTemplate' since there is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=dataSourceConfiguration; factoryMethodName=jdbcTemplate; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/example/PennantApI/DataSourceConfiguration.class]] bound.
+[11:32:57.594] 2023-11-30T11:32:57,594 INFO   [main] ConditionEvaluationReportLogger M[logMessage]- 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[11:32:57.636] 2023-11-30T11:32:57,636 ERROR  [main] LoggingFailureAnalysisReporter M[report]- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'jdbcTemplate', defined in class path resource [org/springframework/boot/autoconfigure/jdbc/JdbcTemplateConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [com/example/PennantApI/DataSourceConfiguration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+[11:34:31.883] 2023-11-30T11:34:31,883 INFO   [main] PennantApIApplication M[logStarting]- Starting PennantApIApplication using Java 17.0.6 with PID 12544 (D:\Angular\PennantApI\target\classes started by sowjanya.g in D:\Angular\PennantApI)
+[11:34:31.906] 2023-11-30T11:34:31,906 INFO   [main] PennantApIApplication M[logStartupProfileInfo]- No active profile set, falling back to 1 default profile: "default"
+[11:34:33.230] 2023-11-30T11:34:33,230 WARN   [main] AnnotationConfigServletWebServerApplicationContext M[refresh]- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'jdbcTemplate' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/JdbcTemplateConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=true; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.JdbcTemplateConfiguration; factoryMethodName=jdbcTemplate; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springframework/boot/autoconfigure/jdbc/JdbcTemplateConfiguration.class]] for bean 'jdbcTemplate' since there is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=dataSourceConfiguration; factoryMethodName=jdbcTemplate; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/example/PennantApI/DataSourceConfiguration.class]] bound.
+[11:34:33.253] 2023-11-30T11:34:33,253 INFO   [main] ConditionEvaluationReportLogger M[logMessage]- 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[11:34:33.302] 2023-11-30T11:34:33,302 ERROR  [main] LoggingFailureAnalysisReporter M[report]- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'jdbcTemplate', defined in class path resource [org/springframework/boot/autoconfigure/jdbc/JdbcTemplateConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [com/example/PennantApI/DataSourceConfiguration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+[11:35:30.952] 2023-11-30T11:35:30,952 INFO   [main] PennantApIApplication M[logStarting]- Starting PennantApIApplication using Java 17.0.6 with PID 6712 (D:\Angular\PennantApI\target\classes started by sowjanya.g in D:\Angular\PennantApI)
+[11:35:30.970] 2023-11-30T11:35:30,970 INFO   [main] PennantApIApplication M[logStartupProfileInfo]- No active profile set, falling back to 1 default profile: "default"
+[11:35:33.283] 2023-11-30T11:35:33,283 INFO   [main] TomcatWebServer M[initialize]- Tomcat initialized with port 8080 (http)
+[11:35:33.300] 2023-11-30T11:35:33,300 INFO   [main] Http11NioProtocol M[log]- Initializing ProtocolHandler ["http-nio-8080"]
+[11:35:33.306] 2023-11-30T11:35:33,306 INFO   [main] StandardService M[log]- Starting service [Tomcat]
+[11:35:33.308] 2023-11-30T11:35:33,308 INFO   [main] StandardEngine M[log]- Starting Servlet engine: [Apache Tomcat/10.1.16]
+[11:35:33.673] 2023-11-30T11:35:33,673 INFO   [main] TldScanner M[log]- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[11:35:33.688] 2023-11-30T11:35:33,688 INFO   [main] [/] M[log]- Initializing Spring embedded WebApplicationContext
+[11:35:33.693] 2023-11-30T11:35:33,693 INFO   [main] ServletWebServerApplicationContext M[prepareWebApplicationContext]- Root WebApplicationContext: initialization completed in 2589 ms
+[11:35:34.464] 2023-11-30T11:35:34,464 WARN   [main] ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration M[checkTemplateLocationExists]- Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[11:35:34.584] 2023-11-30T11:35:34,584 INFO   [main] Http11NioProtocol M[log]- Starting ProtocolHandler ["http-nio-8080"]
+[11:35:34.601] 2023-11-30T11:35:34,601 WARN   [main] AnnotationConfigServletWebServerApplicationContext M[refresh]- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[11:35:34.629] 2023-11-30T11:35:34,629 INFO   [main] ConditionEvaluationReportLogger M[logMessage]- 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[11:35:34.670] 2023-11-30T11:35:34,670 ERROR  [main] LoggingFailureAnalysisReporter M[report]- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+[11:36:24.299] 2023-11-30T11:36:24,299 INFO   [main] PennantApIApplication M[logStarting]- Starting PennantApIApplication using Java 17.0.6 with PID 14236 (D:\Angular\PennantApI\target\classes started by sowjanya.g in D:\Angular\PennantApI)
+[11:36:24.316] 2023-11-30T11:36:24,316 INFO   [main] PennantApIApplication M[logStartupProfileInfo]- No active profile set, falling back to 1 default profile: "default"
+[11:36:27.458] 2023-11-30T11:36:27,458 INFO   [main] TomcatWebServer M[initialize]- Tomcat initialized with port 8080 (http)
+[11:36:27.473] 2023-11-30T11:36:27,473 INFO   [main] Http11NioProtocol M[log]- Initializing ProtocolHandler ["http-nio-8080"]
+[11:36:27.478] 2023-11-30T11:36:27,478 INFO   [main] StandardService M[log]- Starting service [Tomcat]
+[11:36:27.479] 2023-11-30T11:36:27,479 INFO   [main] StandardEngine M[log]- Starting Servlet engine: [Apache Tomcat/10.1.16]
+[11:36:27.884] 2023-11-30T11:36:27,884 INFO   [main] TldScanner M[log]- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[11:36:27.898] 2023-11-30T11:36:27,898 INFO   [main] [/] M[log]- Initializing Spring embedded WebApplicationContext
+[11:36:27.910] 2023-11-30T11:36:27,910 INFO   [main] ServletWebServerApplicationContext M[prepareWebApplicationContext]- Root WebApplicationContext: initialization completed in 3464 ms
+[11:36:28.787] 2023-11-30T11:36:28,787 WARN   [main] ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration M[checkTemplateLocationExists]- Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[11:36:28.919] 2023-11-30T11:36:28,919 INFO   [main] Http11NioProtocol M[log]- Starting ProtocolHandler ["http-nio-8080"]
+[11:36:28.937] 2023-11-30T11:36:28,937 WARN   [main] AnnotationConfigServletWebServerApplicationContext M[refresh]- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[11:36:28.968] 2023-11-30T11:36:28,968 INFO   [main] ConditionEvaluationReportLogger M[logMessage]- 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[11:36:29.025] 2023-11-30T11:36:29,025 ERROR  [main] LoggingFailureAnalysisReporter M[report]- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+[11:37:14.340] 2023-11-30T11:37:14,340 INFO   [main] PennantApIApplication M[logStarting]- Starting PennantApIApplication using Java 17.0.6 with PID 6864 (D:\Angular\PennantApI\target\classes started by sowjanya.g in D:\Angular\PennantApI)
+[11:37:14.374] 2023-11-30T11:37:14,374 INFO   [main] PennantApIApplication M[logStartupProfileInfo]- No active profile set, falling back to 1 default profile: "default"
+[11:37:16.685] 2023-11-30T11:37:16,685 INFO   [main] TomcatWebServer M[initialize]- Tomcat initialized with port 8081 (http)
+[11:37:16.703] 2023-11-30T11:37:16,703 INFO   [main] Http11NioProtocol M[log]- Initializing ProtocolHandler ["http-nio-8081"]
+[11:37:16.708] 2023-11-30T11:37:16,708 INFO   [main] StandardService M[log]- Starting service [Tomcat]
+[11:37:16.709] 2023-11-30T11:37:16,709 INFO   [main] StandardEngine M[log]- Starting Servlet engine: [Apache Tomcat/10.1.16]
+[11:37:17.129] 2023-11-30T11:37:17,129 INFO   [main] TldScanner M[log]- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[11:37:17.140] 2023-11-30T11:37:17,140 INFO   [main] [/] M[log]- Initializing Spring embedded WebApplicationContext
+[11:37:17.143] 2023-11-30T11:37:17,143 INFO   [main] ServletWebServerApplicationContext M[prepareWebApplicationContext]- Root WebApplicationContext: initialization completed in 2637 ms
+[11:37:18.152] 2023-11-30T11:37:18,152 WARN   [main] ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration M[checkTemplateLocationExists]- Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[11:37:18.266] 2023-11-30T11:37:18,266 INFO   [main] Http11NioProtocol M[log]- Starting ProtocolHandler ["http-nio-8081"]
+[11:37:18.384] 2023-11-30T11:37:18,384 INFO   [main] TomcatWebServer M[start]- Tomcat started on port 8081 (http) with context path ''
+[11:37:18.397] 2023-11-30T11:37:18,397 INFO   [main] PennantApIApplication M[logStarted]- Started PennantApIApplication in 4.817 seconds (process running for 6.867)
+[11:44:40.521] 2023-11-30T11:44:40,521 INFO   [main] PennantApIApplication M[logStarting]- Starting PennantApIApplication using Java 17.0.6 with PID 6652 (D:\Angular\PennantApI\target\classes started by sowjanya.g in D:\Angular\PennantApI)
+[11:44:40.550] 2023-11-30T11:44:40,550 INFO   [main] PennantApIApplication M[logStartupProfileInfo]- No active profile set, falling back to 1 default profile: "default"
+[11:44:43.470] 2023-11-30T11:44:43,470 INFO   [main] TomcatWebServer M[initialize]- Tomcat initialized with port 8081 (http)
+[11:44:43.487] 2023-11-30T11:44:43,487 INFO   [main] Http11NioProtocol M[log]- Initializing ProtocolHandler ["http-nio-8081"]
+[11:44:43.492] 2023-11-30T11:44:43,492 INFO   [main] StandardService M[log]- Starting service [Tomcat]
+[11:44:43.492] 2023-11-30T11:44:43,492 INFO   [main] StandardEngine M[log]- Starting Servlet engine: [Apache Tomcat/10.1.16]
+[11:44:43.990] 2023-11-30T11:44:43,990 INFO   [main] TldScanner M[log]- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[11:44:44.004] 2023-11-30T11:44:44,004 INFO   [main] [/] M[log]- Initializing Spring embedded WebApplicationContext
+[11:44:44.007] 2023-11-30T11:44:44,007 INFO   [main] ServletWebServerApplicationContext M[prepareWebApplicationContext]- Root WebApplicationContext: initialization completed in 3326 ms
+[11:44:45.007] 2023-11-30T11:44:45,007 WARN   [main] ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration M[checkTemplateLocationExists]- Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[11:44:45.133] 2023-11-30T11:44:45,133 INFO   [main] Http11NioProtocol M[log]- Starting ProtocolHandler ["http-nio-8081"]
+[11:44:45.268] 2023-11-30T11:44:45,268 INFO   [main] TomcatWebServer M[start]- Tomcat started on port 8081 (http) with context path ''
+[11:44:45.283] 2023-11-30T11:44:45,283 INFO   [main] PennantApIApplication M[logStarted]- Started PennantApIApplication in 5.605 seconds (process running for 7.549)
+[11:51:53.269] 2023-11-30T11:51:53,269 INFO   [http-nio-8081-exec-3] [/] M[log]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[11:51:53.270] 2023-11-30T11:51:53,270 INFO   [http-nio-8081-exec-3] DispatcherServlet M[initServletBean]- Initializing Servlet 'dispatcherServlet'
+[11:51:53.276] 2023-11-30T11:51:53,276 INFO   [http-nio-8081-exec-3] DispatcherServlet M[initServletBean]- Completed initialization in 5 ms
+[09:59:16.237] 2023-12-04T09:59:16,237 INFO   [main] PennantApIApplication M[logStarting]- Starting PennantApIApplication using Java 17.0.6 with PID 9752 (D:\Angular\PennantApI\target\classes started by sowjanya.g in D:\Angular\PennantApI)
+[09:59:16.262] 2023-12-04T09:59:16,262 INFO   [main] PennantApIApplication M[logStartupProfileInfo]- No active profile set, falling back to 1 default profile: "default"
+[09:59:18.115] 2023-12-04T09:59:18,115 INFO   [main] TomcatWebServer M[initialize]- Tomcat initialized with port 8081 (http)
+[09:59:18.151] 2023-12-04T09:59:18,151 INFO   [main] Http11NioProtocol M[log]- Initializing ProtocolHandler ["http-nio-8081"]
+[09:59:18.155] 2023-12-04T09:59:18,155 INFO   [main] StandardService M[log]- Starting service [Tomcat]
+[09:59:18.158] 2023-12-04T09:59:18,158 INFO   [main] StandardEngine M[log]- Starting Servlet engine: [Apache Tomcat/10.1.16]
+[09:59:18.429] 2023-12-04T09:59:18,429 INFO   [main] TldScanner M[log]- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[09:59:18.448] 2023-12-04T09:59:18,448 INFO   [main] [/] M[log]- Initializing Spring embedded WebApplicationContext
+[09:59:18.453] 2023-12-04T09:59:18,453 INFO   [main] ServletWebServerApplicationContext M[prepareWebApplicationContext]- Root WebApplicationContext: initialization completed in 2097 ms
+[09:59:22.885] 2023-12-04T09:59:22,885 WARN   [main] ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration M[checkTemplateLocationExists]- Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[09:59:23.000] 2023-12-04T09:59:23,000 INFO   [main] Http11NioProtocol M[log]- Starting ProtocolHandler ["http-nio-8081"]
+[09:59:23.078] 2023-12-04T09:59:23,078 INFO   [main] TomcatWebServer M[start]- Tomcat started on port 8081 (http) with context path ''
+[09:59:23.091] 2023-12-04T09:59:23,091 INFO   [main] PennantApIApplication M[logStarted]- Started PennantApIApplication in 7.489 seconds (process running for 9.009)
+[10:00:16.091] 2023-12-04T10:00:16,091 INFO   [http-nio-8081-exec-1] [/] M[log]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[10:00:16.091] 2023-12-04T10:00:16,091 INFO   [http-nio-8081-exec-1] DispatcherServlet M[initServletBean]- Initializing Servlet 'dispatcherServlet'
+[10:00:16.109] 2023-12-04T10:00:16,109 INFO   [http-nio-8081-exec-1] DispatcherServlet M[initServletBean]- Completed initialization in 18 ms
